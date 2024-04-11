@@ -8,6 +8,6 @@ use Area\Shapes\Circle;
 use Area\Shapes\Rectangle;
 use Area\Shapes\Square;
 
-echo Circle::area(4)."\n";
+echo Circle::area(5)."\n";
 echo Rectangle::area(3, 6)."\n";
 echo Square::area(4)."\n";
