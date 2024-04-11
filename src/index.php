@@ -9,5 +9,5 @@ use Area\Shapes\Rectangle;
 use Area\Shapes\Square;
 
 echo Circle::area(5)."\n";
-echo Rectangle::area(3, 6)."\n";
+echo Rectangle::area(4, 6)."\n";
 echo Square::area(6)."\n";
