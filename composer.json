@@ -1,0 +1,22 @@
+{
+    "name": "carloschininin/mentoria-demo-01",
+    "description": "Demo de aplicación con composer",
+    "type": "project",
+    "version": "1.0.0",
+    "autoload": {
+        "psr-4": {
+            "Carloschininin\\MentoriaDemo01\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Carlos Chininin",
+            "email": "carloschininin@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=8.2",
+        "shape/test-package": "^1.0"
+    }
+}

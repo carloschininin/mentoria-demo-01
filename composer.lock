@@ -1,0 +1,59 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "5fe6cd4ffa296c13b19f0bb07a37becc",
+    "packages": [
+        {
+            "name": "shape/test-package",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Vickenconcept/test-package.git",
+                "reference": "4101ef1ad61142ffe0468d1718d429a5f05e953e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Vickenconcept/test-package/zipball/4101ef1ad61142ffe0468d1718d429a5f05e953e",
+                "reference": "4101ef1ad61142ffe0468d1718d429a5f05e953e",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Area\\": "src",
+                    "Area\\Shapes\\": "src/Area/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Your Name",
+                    "email": "your@email.com"
+                }
+            ],
+            "description": "A simple PHP package to calculate the area of a Shapes",
+            "support": {
+                "issues": "https://github.com/Vickenconcept/test-package/issues",
+                "source": "https://github.com/Vickenconcept/test-package/tree/v1.0.0"
+            },
+            "time": "2024-03-05T23:51:26+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=8.2"
+    },
+    "platform-dev": [],
+    "plugin-api-version": "2.6.0"
+}
